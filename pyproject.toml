@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "seminarshit"
+version = "0.1.0"
+description = ""
+authors = ["ronen betser <ronen@Session-42.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.45.1"
+scikit-learn = "^1.6.1"
+umap-learn = "^0.5.7"
+plotly = "^6.1.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
